@@ -29,7 +29,7 @@ const pageActionMap = {
       };
 
       try {
-        await fetch('http://localhost:8000/firewall/static', {
+        await fetch('https://zap-dev.shaeryldatatech.in/firewall/static', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
