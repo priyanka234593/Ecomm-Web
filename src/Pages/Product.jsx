@@ -31,7 +31,7 @@ export default function Product() {
         action: `ProductPageVisit-${product.id}`,
       };
 
-      fetch('http://127.0.0.1:8000/firewall/static', {
+      fetch('https://zap-api-dev.shaeryldatatech.in/firewall/static', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
